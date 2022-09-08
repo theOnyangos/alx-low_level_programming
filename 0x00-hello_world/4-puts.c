@@ -5,7 +5,7 @@
  * My first c programe
  * Printing with puts
  *
- * */
+ */
 
 int main(void)
 {
