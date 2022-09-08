@@ -2,8 +2,9 @@
 
 /**
  *
- * My first c programe
- * Printing with puts
+ * main - entry point
+ *
+ * Return: always 0 (success)
  *
  */
 int main(void)
