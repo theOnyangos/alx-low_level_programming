@@ -1,4 +1,4 @@
-#include <alx.h>
+#include <main.h>
 
 /**
  * main - entry function
@@ -16,9 +16,9 @@ int main(void)
 
 void print_alphabet_x10(void)
 {
-	char alf[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alph[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	for (i = alf; i <= 10; i++)
+	for (i = alph; i <= 10; i++)
 	{
 		_putchar (i);
 		_putchar ("\n");
