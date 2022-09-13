@@ -1,27 +1,26 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - entry function
+ * print_alphabet_x10 - function
  *
- * Description: Function for printing alphabets 10 times
+ * Return: 0
  */
-
-void print_alphabet_10x(void)
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
 
 void print_alphabet_x10(void)
 {
-	char alph[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int b = 0;
 
-	for (i = alph; i <= 10; i++)
+	while (b < 10)
 	{
-		_putchar (i);
-		_putchar ("\n");
-		i++;
+		char a = 'a';
+
+		while (a <= 'z')
+		{
+			_putchar(a);
+			a++;
+		}
+
+		_putchar('\n');
+		b++;
 	}
 }
