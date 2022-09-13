@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _isalpha - function
+ * _isalpha - check the code for Holberton School students.
  *
- * Description: check for uppercase letters
+ * @c: is c an integer argument
+ *
+ * Return: Always 0.
  */
 
 int _isalpha(int c)
