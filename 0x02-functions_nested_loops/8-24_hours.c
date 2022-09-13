@@ -7,7 +7,7 @@
  */
 
 
-oid jack_bauer(void)
+void jack_bauer(void)
 {
 	int hr;
 	int min;
