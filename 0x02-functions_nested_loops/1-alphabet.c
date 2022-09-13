@@ -1,21 +1,21 @@
 #include <main.h>
 
 /**
- * main - entry point for compiler
+ * print_alphabet - entry point for compiler
  *
- * description: function for printing alphabets to lowercase
+ * Description: print alphabet with _putchar
+ *
+ * Return: void
  */
+
 void print_alphabet(void)
 {
-	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char c;
 
-	_putchar (alphabet);
-	_putchar ("\n");
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+
+	_putchar("\n");
 }
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
