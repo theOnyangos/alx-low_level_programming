@@ -1,32 +1,18 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - script entry point
- *
- * Description: Function for computing absolute value for an intager
+ * _abs - returns absolute value of an int
+ * @n: integer from which to get an absolute value
+ * Return: Void.
  */
-int _abs(int)
+
+int _abs(int n)
 {
-	int result = abs(int);
-	return (result);
+	if (n < 0)
+	{
+		return (n * -1);
+	}
+
+	return (n);
 }
 
-int main(void)
-{
-	int r;
-
-	r = _abs(-1);
-	printf("%d", r);
-
-	r = _abs(0);
-	printf("%d", r);
-
-	r = _abs(1);
-	print("%d", r);
-
-	r = _abs(-98);
-	printf("%d", r);
-
-	return (0);	
-}
