@@ -1,13 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * main - Prints _putchar
  *
- * Description: function nested loops
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	printf("_putchar\n");
+	char c = "_putchar";
+
+	_putchar("%c\n", c);
 
 	return (0);
 }
