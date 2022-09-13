@@ -1,42 +1,20 @@
-#include <main.js>
+#include "main.js"
 
 /**
- * main - entry point for script
+ * _isalpha - function
  *
- * Description - Function for checking for uppercase letters
+ * Description: check for uppercase letters
  */
 
 int _isalpha(int c)
 {
-	int result;
-
-	if (isalpha(c))
+	if (c >= 97 && c <= 122)
 	{
-		result = 1;
-		return (result);
-	} else {
-
-		result = 0;
-		return (result);
+		return (1);
 	}
-}
-
-int main(void)
-{
-	int r;
-
-	r = _isalpha("H");
-	_putchar(r + "0");
-
-	r = _isalpha("O");
-	_putchar(r + "0");
-
-	r = _isalpha(102);
-	_putchar(r + "0");
-
-	r = _isalpha(";");
-	_putchar(r + "0");
-	_putchar("\n");
-
+	else if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
 	return (0);
 }
