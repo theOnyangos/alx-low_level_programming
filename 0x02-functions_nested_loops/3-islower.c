@@ -9,7 +9,7 @@ int _islower(int c)
 {
 	int result;
 
-	if(islower(c))
+	if (c == 99)
 	{
 		result = 1;
 		return (result);	
@@ -19,18 +19,3 @@ int _islower(int c)
 	}
 }
 
-int main(void)
-{
-	int r;
-
-	r = _islower("H");
-	_putchar(r + "0");
-
-	r = _islower("o");
-	_putchar(r + "0");
-
-	r = _islower(102);
-	_putchar(r + "0");
-
-	return (0);
-}
