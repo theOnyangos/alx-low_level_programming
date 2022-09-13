@@ -10,6 +10,7 @@ int main(void)
 {
 	int i;
 	char s[] = "_putchar";
+	char c;
 
 	for (i = 0; i < 7; i++)
 	{
@@ -18,7 +19,7 @@ int main(void)
 		i++;
 	}
 
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
