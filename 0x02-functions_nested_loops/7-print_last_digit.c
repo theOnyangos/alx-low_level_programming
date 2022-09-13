@@ -1,25 +1,19 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - entry point function
+ * print_last_digit - function
  *
- * Description: function for getting the last digit of a number
+ * Description: n is the parameter passed
+ *
+ * Return: Always 0.
  */
-int print_last_digit(int)
+
+int print_last_digit(int n)
 {
-	int last = int % 10;
-	return (last);
-}
+	n = n % 10;
 
-int main(void)
-{
-	int r;
-
-	print_last_digit(98);
-	print_last_digit(0);
-	print_last_digit(-1024);
-	_putchar("0" + r);
-	_putchar("\n");
-
-	return (0);
+	if (n < 0)
+		n = -n;
+		_putchar(n + '0');
+		return (n);
 }
