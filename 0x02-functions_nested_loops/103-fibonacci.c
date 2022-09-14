@@ -26,7 +26,7 @@ int main(void)
 		}
 
 		before = after;
-		after = B
+		after = B;
 	}
 	printf("%li\n", total_sum);
 	return (0);
