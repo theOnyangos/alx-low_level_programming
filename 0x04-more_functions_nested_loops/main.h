@@ -1,8 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
+extern int _putchar(char c);
 
-int _isupper(int c);
+extern int _isupper(int c);
 
 #endif
