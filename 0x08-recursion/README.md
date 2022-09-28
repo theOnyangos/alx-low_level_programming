@@ -1,0 +1,1 @@
+Recursion is C is a way of writing functions the can call itself, it's good practice to always put a condition to stop the function from colling itself when the target for the function is met to avoid infinit calling.
