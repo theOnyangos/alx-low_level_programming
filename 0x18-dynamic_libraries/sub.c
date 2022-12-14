@@ -1,13 +1,13 @@
 #include "operations.h"
 
 /**
- * _sub - function the takes in two intager numbers and subract them
+ * sub - function the takes in two intager numbers and subract them
  * @num1: the first parameter passed to the function
  * @num2: the second parameter
  * Return: This function returns the result of subtracting two numbers
  */
 
-int _sub(int num1, int num2)
+int sub(int num1, int num2)
 {
 	if (num1 != 0 && num2 != 0)
 	{

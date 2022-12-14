@@ -1,13 +1,13 @@
 #include "operations.h"
 
 /**
- * _mul - function mutiplies to numbers
+ * mul - function mutiplies to numbers
  * @num1: the first parameter passed to the function
  * @num2: the second parameter
  * Return: This function returns a total of multiplying num1 and num2
  */
 
-int _mul(int num1, int num2)
+int mul(int num1, int num2)
 {
 	if (num1 != 0 && num2 != 0)
 	{
